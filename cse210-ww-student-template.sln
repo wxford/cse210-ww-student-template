@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning02", "prepare\Learn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning05", "prepare\Learning05\Learning05.csproj", "{F361D979-53F4-4010-ABA8-635F47045B71}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning04", "prepare\Learning04\Learning04.csproj", "{42E0E23C-2BAB-4310-A775-7E30C43698A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "learning06", "prepare\learning06\learning06.csproj", "{42E0E23C-2BAB-4310-A775-7E30C43698A2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning03", "prepare\Learning03\Learning03.csproj", "{EB7DB472-CD2F-420F-B3CC-B720D7C5D135}"
 EndProject
@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "prove", "prove", "{04A67DA6
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Develop03", "prove\Develop03\Develop03.csproj", "{AFFAAD66-FDF7-4DE6-9E71-66AD53DC0042}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Develop04", "prove\Develop04\Develop04.csproj", "{6D6C1E65-1683-49C1-AD3A-5CD9C4154FF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Develop06", "prove\Develop06\Develop06.csproj", "{6D6C1E65-1683-49C1-AD3A-5CD9C4154FF0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Develop05", "prove\Develop05\Develop05.csproj", "{0F2D82D9-8618-4EF5-A14A-DAE8BFAC4C75}"
 EndProject
@@ -27,17 +27,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sandbox", "sandbox", "{7F6D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox", "sandbox\Sandbox\Sandbox.csproj", "{716AD7D8-8469-4B2C-8BF2-4CBDEA6425D0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "final", "final", "{473BF896-AF2B-42A8-99A4-518444F424E5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "foundation", "foundation", "{473BF896-AF2B-42A8-99A4-518444F424E5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinalProject", "final\FinalProject\FinalProject.csproj", "{48D32DAD-00EE-4394-B22C-C2F3675D1349}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation1", "foundation\Foundation1\Foundation1.csproj", "{88F2F63A-19BA-4BCF-9E5F-73FE4E6D2C34}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation1", "final\Foundation1\Foundation1.csproj", "{88F2F63A-19BA-4BCF-9E5F-73FE4E6D2C34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation3", "foundation\Foundation3\Foundation3.csproj", "{DB93714A-2F9B-4581-A2C1-96B97C11C717}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation4", "final\Foundation4\Foundation4.csproj", "{946095AE-373C-43A7-92D1-FCA43A6F06D4}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation3", "final\Foundation3\Foundation3.csproj", "{DB93714A-2F9B-4581-A2C1-96B97C11C717}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation2", "final\Foundation2\Foundation2.csproj", "{43C43DB3-5A49-4029-8E3F-820010337BA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation2", "foundation\Foundation2\Foundation2.csproj", "{43C43DB3-5A49-4029-8E3F-820010337BA4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp-prep", "csharp-prep", "{17D95707-7BD5-4BEB-9B50-FDB869C2F355}"
 EndProject
