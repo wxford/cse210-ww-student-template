@@ -108,26 +108,26 @@
         },
 
         {
-            "name": "Learning 04 (Homework)",
-            "type": "coreclr",
-            "request": "launch",
-            "preLaunchTask": "build-prepare-Learning04",
-            "program": "${workspaceFolder}/prepare/Learning04/bin/Debug/net8.0/Learning04.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}/prepare/Learning04",
-            "console": "integratedTerminal",
-            "internalConsoleOptions": "neverOpen",
-            "stopAtEntry": false
-        },
-
-        {
-            "name": "Learning 05 (Shapes)",
+            "name": "Learning 05 (Homework)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-prepare-Learning05",
             "program": "${workspaceFolder}/prepare/Learning05/bin/Debug/net8.0/Learning05.dll",
             "args": [],
             "cwd": "${workspaceFolder}/prepare/Learning05",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Learning 06 (Shapes)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-prepare-Learning06",
+            "program": "${workspaceFolder}/prepare/Learning06/bin/Debug/net8.0/Learning06.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/prepare/Learning06",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
@@ -160,20 +160,7 @@
         },
 
         {
-            "name": "Develop 04 (Mindfulness)",
-            "type": "coreclr",
-            "request": "launch",
-            "preLaunchTask": "build-prove-Develop04",
-            "program": "${workspaceFolder}/prove/Develop04/bin/Debug/net8.0/Develop04.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}/prove/Develop04",
-            "console": "integratedTerminal",
-            "internalConsoleOptions": "neverOpen",
-            "stopAtEntry": false
-        },
-
-        {
-            "name": "Develop 05 (Goal Tracker)",
+            "name": "Develop 05 (Mindfulness)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-prove-Develop05",
@@ -186,13 +173,13 @@
         },
 
         {
-            "name": "Final Project (Open ended)",
+            "name": "Develop 06 (Goal Tracker)",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-final-FinalProject",
-            "program": "${workspaceFolder}/final/FinalProject/bin/Debug/net8.0/FinalProject.dll",
+            "preLaunchTask": "build-prove-Develop06",
+            "program": "${workspaceFolder}/prove/Develop06/bin/Debug/net8.0/Develop06.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/final/FinalProject",
+            "cwd": "${workspaceFolder}/prove/Develop06",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
@@ -202,10 +189,10 @@
             "name": "Foundation 1 (YouTube)",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-final-Foundation1",
-            "program": "${workspaceFolder}/final/Foundation1/bin/Debug/net8.0/Foundation1.dll",
+            "preLaunchTask": "build-foundation-Foundation1",
+            "program": "${workspaceFolder}/foundation/Foundation1/bin/Debug/net8.0/Foundation1.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/final/Foundation1",
+            "cwd": "${workspaceFolder}/foundation/Foundation1",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
@@ -215,36 +202,23 @@
             "name": "Foundation 2 (Products)",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-final-Foundation2",
-            "program": "${workspaceFolder}/final/Foundation2/bin/Debug/net8.0/Foundation2.dll",
+            "preLaunchTask": "build-foundation-Foundation2",
+            "program": "${workspaceFolder}/foundation/Foundation2/bin/Debug/net8.0/Foundation2.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/final/Foundation2",
+            "cwd": "${workspaceFolder}/foundation/Foundation2",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
 
         {
-            "name": "Foundation 3 (Events)",
+            "name": "Foundation 3 (Exercise)",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-final-Foundation3",
-            "program": "${workspaceFolder}/final/Foundation3/bin/Debug/net8.0/Foundation3.dll",
+            "preLaunchTask": "build-foundation-Foundation3",
+            "program": "${workspaceFolder}/foundation/Foundation3/bin/Debug/net8.0/Foundation3.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/final/Foundation3",
-            "console": "integratedTerminal",
-            "internalConsoleOptions": "neverOpen",
-            "stopAtEntry": false
-        },
-
-        {
-            "name": "Foundation 4 (Exercise)",
-            "type": "coreclr",
-            "request": "launch",
-            "preLaunchTask": "build-final-Foundation4",
-            "program": "${workspaceFolder}/final/Foundation4/bin/Debug/net8.0/Foundation4.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}/final/Foundation4",
+            "cwd": "${workspaceFolder}/foundation/Foundation3",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false

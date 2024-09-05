@@ -108,12 +108,12 @@
         },
 
         {
-            "label": "build-prepare-Learning04",
+            "label": "build-prepare-Learning05",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/prepare/Learning04/Learning04.csproj",
+                "${workspaceFolder}/prepare/Learning05/Learning05.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -121,12 +121,12 @@
         },
 
         {
-            "label": "build-prepare-Learning05",
+            "label": "build-prepare-Learning06",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/prepare/Learning05/Learning05.csproj",
+                "${workspaceFolder}/prepare/Learning06/Learning06.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -160,19 +160,6 @@
         },
 
         {
-            "label": "build-prove-Develop04",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "build",
-                "${workspaceFolder}/prove/Develop04/Develop04.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
-            ],
-            "problemMatcher": "$msCompile"
-        },
-
-        {
             "label": "build-prove-Develop05",
             "command": "dotnet",
             "type": "process",
@@ -186,12 +173,12 @@
         },
 
         {
-            "label": "build-final-FinalProject",
+            "label": "build-prove-Develop06",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/final/FinalProject/FinalProject.csproj",
+                "${workspaceFolder}/prove/Develop06/Develop06.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -199,12 +186,12 @@
         },
 
         {
-            "label": "build-final-Foundation1",
+            "label": "build-foundation-Foundation1",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/final/Foundation1/Foundation1.csproj",
+                "${workspaceFolder}/foundation/Foundation1/Foundation1.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -212,12 +199,12 @@
         },
 
         {
-            "label": "build-final-Foundation2",
+            "label": "build-foundation-Foundation2",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/final/Foundation2/Foundation2.csproj",
+                "${workspaceFolder}/foundation/Foundation2/Foundation2.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -225,25 +212,12 @@
         },
 
         {
-            "label": "build-final-Foundation3",
+            "label": "build-foundation-Foundation3",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/final/Foundation3/Foundation3.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
-            ],
-            "problemMatcher": "$msCompile"
-        },
-
-        {
-            "label": "build-final-Foundation4",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "build",
-                "${workspaceFolder}/final/Foundation4/Foundation4.csproj",
+                "${workspaceFolder}/foundation/Foundation3/Foundation3.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
