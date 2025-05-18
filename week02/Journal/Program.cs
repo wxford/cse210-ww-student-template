@@ -1,51 +1,49 @@
 using System;
-using System.Collections.Generic;
-using System.IO;
 
-public class Journal
+class Program
 {
-    private List<Entry> _entries = new List<Entry>();
-
-    public void AddEntry(Entry entry)
+    static void Main(string[] args)
     {
-        _entries.Add(entry);
-    }
+        Journal journal = new Journal();
+        bool running = true;
 
-    public void DisplayAll()
-    {
-        foreach (Entry entry in _entries)
+        while (running)
         {
-            entry.Display();
-        }
-    }
+            Console.WriteLine("\nJournal Program Menu:");
+            Console.WriteLine("1. Write a new entry");
+            Console.WriteLine("2. Display the journal");
+            Console.WriteLine("3. Save the journal to a file");
+            Console.WriteLine("4. Load the journal from a file");
+            Console.WriteLine("5. Exit");
+            Console.Write("Choose an option (1-5): ");
 
-    public void SaveToFile(string filename)
-    {
-        using (StreamWriter writer = new StreamWriter(filename))
-        {
-            foreach (Entry entry in _entries)
+            string choice = Console.ReadLine();
+
+            switch (choice)
             {
-                writer.WriteLine(entry.ToFileString());
+                case "1":
+                    journal.WriteNewEntry();
+                    break;
+                case "2":
+                    journal.DisplayJournal();
+                    break;
+                case "3":
+                    Console.Write("Enter filename to save: ");
+                    string saveFile = Console.ReadLine();
+                    journal.SaveJournal(saveFile);
+                    break;
+                case "4":
+                    Console.Write("Enter filename to load: ");
+                    string loadFile = Console.ReadLine();
+                    journal.LoadJournal(loadFile);
+                    break;
+                case "5":
+                    running = false;
+                    break;
+                default:
+                    Console.WriteLine("Invalid option. Please try again.");
+                    break;
             }
-        }
-        Console.WriteLine("Journal saved successfully.");
-    }
-
-    public void LoadFromFile(string filename)
-    {
-        if (File.Exists(filename))
-        {
-            _entries.Clear();
-            string[] lines = File.ReadAllLines(filename);
-            foreach (string line in lines)
-            {
-                _entries.Add(Entry.FromFileString(line));
-            }
-            Console.WriteLine("Journal loaded successfully.");
-        }
-        else
-        {
-            Console.WriteLine("File not found.");
         }
     }
 }
