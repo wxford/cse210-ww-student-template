@@ -1,8 +1,25 @@
-public class BreathingActivity
+public class BreathingActivity : Activity
 {
-    public void Start()
+    public BreathingActivity()
     {
-        Console.WriteLine("Starting Breathing Activity...");
-        // Add your breathing activity logic here
+        _name = "Breathing";
+        _description = "This activity will help you relax by walking you through breathing in and out slowly. Clear your mind and focus on your breathing.";
+    }
+
+    public void Run()
+    {
+        DisplayStartingMessage();
+        
+        DateTime startTime = DateTime.Now;
+        DateTime endTime = startTime.AddSeconds(_duration);
+        
+        bool isInhale = true;
+        while (DateTime.Now < endTime)
+        {
+            ShowBreathingAnimation(isInhale ? 4 : 6, isInhale);
+            isInhale = !isInhale;
+        }
+        
+        DisplayEndingMessage();
     }
 }

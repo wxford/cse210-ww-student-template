@@ -6,36 +6,51 @@ class Program
     {
         while (true)
         {
-            Console.WriteLine("Choose an activity:");
+            Console.Clear();
+            Console.WriteLine("Mindfulness Program Menu");
+            Console.WriteLine("=========================");
             Console.WriteLine("1. Breathing Activity");
             Console.WriteLine("2. Reflection Activity");
             Console.WriteLine("3. Listing Activity");
-            Console.WriteLine("4. Quit");
-            Console.Write("Enter your choice: ");
+            Console.WriteLine("4. Show Activity Log");
+            Console.WriteLine("5. Quit");
+            Console.Write("\nSelect an option: ");
             
             string choice = Console.ReadLine();
-            Console.Clear();
-
+            
             switch (choice)
             {
                 case "1":
-                    new BreathingActivity().Start();
+                    BreathingActivity breathing = new BreathingActivity();
+                    breathing.Run();
                     break;
                 case "2":
-                    new ReflectionActivity().Start();
+                    ReflectionActivity reflection = new ReflectionActivity();
+                    reflection.Run();
                     break;
                 case "3":
-                    new ListingActivity().Start();
+                    ListingActivity listing = new ListingActivity();
+                    listing.Run();
                     break;
                 case "4":
-                    Console.WriteLine("Goodbye!");
+                    ShowActivityLog();
+                    break;
+                case "5":
+                    Console.WriteLine("\nThank you for using the Mindfulness Program. Have a peaceful day!");
                     return;
                 default:
-                    Console.WriteLine("Invalid choice. Try again.");
+                    Console.WriteLine("\nInvalid option. Please try again.");
+                    Thread.Sleep(1000);
                     break;
             }
-
-            Console.WriteLine(); // Adds space before the next loop
         }
+    }
+
+    static void ShowActivityLog()
+    {
+        Console.Clear();
+        Console.WriteLine($"Activity Log\n============\n\nTotal activities completed: {Activity.GetActivitiesCompleted()}");
+        Console.WriteLine("\nPress Enter to return to the menu...");
+        Console.ReadLine();
     }
 }
